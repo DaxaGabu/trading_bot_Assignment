@@ -1,0 +1,9 @@
+2026-07-07 10:58:27,678 - INFO - Application Started
+2026-07-07 10:58:27,678 - WARNING - This is a warning
+2026-07-07 10:58:27,679 - ERROR - This is an error
+2026-07-07 11:08:40,458 - INFO - MARKET Order Request: BTCUSDT BUY 0.001
+2026-07-07 11:08:50,851 - INFO - Response: {'orderId': 19757771769, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ8b5b01f3ffcba47140756b', 'price': '0.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1783402730411}
+2026-07-07 11:09:48,681 - INFO - MARKET Order Request: BTCUSDT BUY 0.001
+2026-07-07 11:09:59,850 - ERROR - Market Order Error: APIError(code=-1021): Timestamp for this request is outside of the recvWindow.
+2026-07-07 11:10:07,665 - INFO - LIMIT Order Request: BTCUSDT BUY 0.001 @ 50000.0
+2026-07-07 11:10:08,938 - INFO - Response: {'orderId': 19757995921, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJf248f34f99860f0c4a1945', 'price': '50000.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1783402808961}
